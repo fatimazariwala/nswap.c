@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+
+   int main(){
+       int a=20;
+       int b=30;
+
+
+       printf("\nValue of a=%d , Value of b=%d .... Before swap",a,b);
+
+       a=a+b;
+       b=a-b;
+       a=a-b;
+
+       printf("\nValue of a=%d , Value of b=%d ..... After swap",a,b);
+
+
+
+    return 0;}
